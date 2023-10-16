@@ -70,6 +70,23 @@ p {
 #navbar-container {
   display: flex;
   padding: 2.5vh;
+  justify-content: space-between;
+}
+
+#navbar-container div {
+  display: flex;
+}
+#socials-wrapper {
+  justify-content: space-between;
+}
+.sidebar-icons {
+  font-size: 3vw;
+  padding: 1.5vw;
+  color: #0f1b61;
+  height: fit-content;
+}
+.sidebar-icons:hover {
+  cursor: pointer;
 }
 
 #intro-page {
