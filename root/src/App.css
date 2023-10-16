@@ -21,10 +21,20 @@ h1 {
 }
 
 h2 {
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+h3 {
   font-weight: normal;
   letter-spacing: 0.1em;
   font-size: 1.4em;
   margin: 5vh;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 2.2em;
 }
 
 p {
@@ -60,7 +70,6 @@ p {
 #navbar-container {
   display: flex;
   padding: 2.5vh;
-  /* justify-content: space-between; */
 }
 
 #intro-page {
@@ -86,7 +95,108 @@ p {
   margin: 0;
   width: 0.001vw;
   border: #0f1b61 solid;
-  height: 50vh;
+  height: 300vh;
   position: sticky;
   margin-left: 2.7vw;
+}
+
+#project-page-wrapper {
+  padding-left: 5vw;
+  height: 82vh;
+  width: 80vw;
+}
+
+.timeline-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.year-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.year-line {
+  transform: rotate(90deg);
+  border: #0f1b61 solid 0.1vw;
+  height: 3vw;
+  position: absolute;
+  right: 17.1vw;
+}
+.proj-line {
+  right: 20vw;
+  height: 5vw;
+  border: #0f1b61 solid 0.08vw;
+}
+.year-text {
+  padding-right: 5vw;
+}
+.year-dot {
+  height: 2vw;
+  width: 2vw;
+  background-color: #0f1b61;
+  border-radius: 50%;
+  position: absolute;
+  right: 16.2vw;
+}
+.project-container {
+  width: 90%;
+  display: flex;
+  margin-bottom: 6vh;
+  margin-top: 6vh;
+}
+.proj-text-wrapper {
+  width: 50%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.proj-text-wrapper h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.project-container img {
+  width: 30%;
+  height: auto;
+  /* background: #f7e3cc; */
+  border-radius: 3%;
+  border: #0f1b61 2px dotted;
+  display: inline-flex;
+  align-items: center;
+}
+.try-btn {
+  width: fit-content;
+  border: 2px solid #0f1b61;
+  color: #0f1b61;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1em;
+}
+.try-btn:hover {
+  color: #f4f9fc;
+  background: #0f1b61;
+  transition: 0.5s ease-in-out;
+}
+.title-tag-wrapper {
+  display: inline-flex;
+  align-items: flex-end;
+}
+.title-tag-wrapper p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+}
+.separator {
+  border: 1px #0f1b61 solid;
+  width: 70%;
+  left: 5vw;
+  position: absolute;
+  opacity: 60%;
+}
+.card-wrapper {
+  margin-top: 3.5vh;
+  margin-bottom: 3.5vh;
 }
