@@ -7,8 +7,12 @@ export default function NavBar() {
     <div id="navbar-container">
       <div>
         <div>{/* favicon */}</div>
-        <h3>PROJECTS</h3>
-        <h3>AWARDS</h3>
+        <a href="#proj-page-title">
+          <h3>PROJECTS</h3>
+        </a>
+        <a href="#event-page-title">
+          <h3>ACHIEVEMENTS</h3>
+        </a>
       </div>
       <div id="socials-wrapper">
         <a href="https://github.com/nicoletanyt">

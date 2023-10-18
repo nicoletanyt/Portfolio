@@ -112,14 +112,13 @@ p {
   margin: 0;
   width: 0.001vw;
   border: #0f1b61 solid;
-  height: 300vh;
+  height: 500vh;
   position: sticky;
   margin-left: 2.7vw;
 }
 
-#project-page-wrapper {
+#page-wrapper {
   padding-left: 5vw;
-  height: 82vh;
   width: 80vw;
 }
 
@@ -132,6 +131,7 @@ p {
 .year-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .year-line {
   transform: rotate(90deg);
@@ -159,8 +159,9 @@ p {
 .project-container {
   width: 90%;
   display: flex;
-  margin-bottom: 6vh;
-  margin-top: 6vh;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  padding-right: 5vw;
 }
 .proj-text-wrapper {
   width: 50%;
@@ -196,6 +197,7 @@ p {
   color: #f4f9fc;
   background: #0f1b61;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 .title-tag-wrapper {
   display: inline-flex;
@@ -216,4 +218,34 @@ p {
 .card-wrapper {
   margin-top: 3.5vh;
   margin-bottom: 3.5vh;
+}
+.event-item,
+.category-label {
+  justify-content: flex-end;
+}
+.event-item {
+  padding-right: 0;
+}
+#navbar-container a {
+  text-decoration: none;
+  color: #0f1b61;
+  cursor: pointer;
+}
+.year-text-event {
+  /* margin-left: 10vw; */
+  position: absolute;
+  right: 10vw;
+}
+.event-title {
+  margin-right: 5vw;
+  text-align: end;
+}
+.learn-more-text {
+  font-size: 1em;
+  text-decoration: underline;
+}
+.learn-more-wrapper {
+  width: 15%;
+  display: inline-flex;
+  justify-content: flex-end;
 }

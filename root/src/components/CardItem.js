@@ -1,5 +1,4 @@
 import React from "react";
-import SUSCITY from "../images/SUSCITY.png";
 
 export default function CardItem({ title, desc, image, link, linkText, tags }) {
   return (
@@ -11,13 +10,8 @@ export default function CardItem({ title, desc, image, link, linkText, tags }) {
             <h4>{title}</h4>
             <p>{tags}</p>
           </div>
-          <p>
-            {/* An Educational Geography Game to help students visualise the
-            geography concept taught in class. */}
-            {desc}
-          </p>
+          <p>{desc}</p>
           <a href={link} className="try-btn">
-            {/* <p>Visit SUSCITY!</p> */}
             <p>{linkText}</p>
           </a>
         </div>

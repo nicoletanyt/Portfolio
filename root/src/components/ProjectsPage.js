@@ -4,8 +4,8 @@ import { PROJECTS } from "../Data";
 
 export default function ProjectsPage() {
   return (
-    <div id="project-page-wrapper">
-      <div className="timeline-header-container">
+    <div id="page-wrapper">
+      <div id="proj-page-title" className="timeline-header-container">
         <h2>My Projects</h2>
         <div className="year-wrapper">
           <p className="year-text">2022</p>
