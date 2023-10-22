@@ -7,6 +7,9 @@ export default function NavBar() {
     <div id="navbar-container">
       <div>
         <div>{/* favicon */}</div>
+        <a href="#about-page-title">
+          <h3>ABOUT ME</h3>
+        </a>
         <a href="#proj-page-title">
           <h3>PROJECTS</h3>
         </a>

@@ -178,7 +178,7 @@ p {
   width: 30%;
   height: auto;
   /* background: #f7e3cc; */
-  border-radius: 3%;
+  border-radius: 4%;
   border: #0f1b61 2px dotted;
   display: inline-flex;
   align-items: center;
@@ -248,4 +248,8 @@ p {
   width: 15%;
   display: inline-flex;
   justify-content: flex-end;
+}
+.about-me-desc {
+  text-align: justify !important;
+  padding-right: 5%;
 }

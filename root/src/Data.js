@@ -62,3 +62,28 @@ export const ACHIEVEMENTS = {
     ],
   },
 };
+
+export const ABOUTME = [
+  {
+    text: [
+      "I'm Nicole, a 15 year-old student currently studying in School of Science and Technology (SST). I'm interested in coding (especially app and game development), listening to music, and exploring challenging math topics :D",
+    ],
+    image: <img />,
+    year: "2008",
+  },
+  {
+    text: [
+      "In primary school, I was a rather art/languages/music kind of person, as my Co-Curricular Activities (CCA) was Chinese Orchestra, and books were where I found comfort in after a long day of school.",
+      "But nearing the end of primary school, I found a new formed passion in Math, gaming, and Rubik's Cube.",
+    ],
+    image: <img />,
+    year: "2008",
+  },
+  {
+    text: [
+      "In 2021, I joined SST, where I got to meet like-minded people and gain many precious opportunities to hone my academic and interpersonal skills.",
+    ],
+    image: <img />,
+    year: "2021",
+  },
+];
