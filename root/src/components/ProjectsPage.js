@@ -7,10 +7,10 @@ export default function ProjectsPage() {
     <div id="page-wrapper">
       <div id="proj-page-title" className="timeline-header-container">
         <h2>My Projects</h2>
-        <div className="year-wrapper">
+        {/* <div className="year-wrapper">
           <p className="year-text">2022</p>
           <hr className="year-line" />
-        </div>
+        </div> */}
       </div>
       {PROJECTS.map(function (project) {
         return (
@@ -23,6 +23,7 @@ export default function ProjectsPage() {
               key={project.id}
               link={project.link.url}
               linkText={project.link.text}
+              year={project.year}
             />
             <hr className="separator" />
           </div>

@@ -6,10 +6,9 @@ export default function IntroPage() {
       <div id="name-img-wrapper">
         <div id="name-wrapper">
           <h1>Hi, my name is </h1>
-          <h1 id="name">Nicole Tan.</h1>
+          <h1 id="name">Nicole Tan 艺桐</h1>
           <p>A curious and adaptable learner</p>
         </div>
-        <img id="name-img" />
       </div>
       <div id="scroll-wrapper">
         <p className="scroll-text">SCROLL</p>

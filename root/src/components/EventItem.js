@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function EventItem({ title, year, details, reflections }) {
+export default function EventItem({
+  title,
+  year,
+  details,
+  reflections,
+  linkText,
+}) {
   return (
     <div className="timeline-header-container event-item">
       <div className="event-title">
@@ -8,7 +14,7 @@ export default function EventItem({ title, year, details, reflections }) {
         <p className="r">{reflections}</p>
         {details !== null ? (
           <a href={details} className="learn-more-wrapper">
-            <p className="learn-more-text">View my project</p>
+            <p className="learn-more-text">{linkText}</p>
           </a>
         ) : (
           <></>

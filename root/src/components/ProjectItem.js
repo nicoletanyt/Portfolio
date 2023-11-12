@@ -1,6 +1,14 @@
 import React from "react";
 
-export default function CardItem({ title, desc, image, link, linkText, tags }) {
+export default function CardItem({
+  title,
+  desc,
+  image,
+  link,
+  linkText,
+  tags,
+  year,
+}) {
   return (
     <div className="timeline-header-container">
       <div className="project-container">
@@ -18,6 +26,7 @@ export default function CardItem({ title, desc, image, link, linkText, tags }) {
       </div>
       <hr className="year-line proj-line" />
       <span className="year-dot"></span>
+      <p class="year-text-event">{year}</p>
     </div>
   );
 }
