@@ -26,7 +26,7 @@ export default function CardItem({
       </div>
       <hr className="year-line proj-line" />
       <span className="year-dot"></span>
-      <p class="year-text-event">{year}</p>
+      <p className="year-text-event">{year}</p>
     </div>
   );
 }
