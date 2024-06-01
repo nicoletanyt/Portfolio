@@ -39,6 +39,20 @@ export const PROJECTS = [
     },
     year: 2022,
   },
+  {
+    title: "Graphs in Obsidian Plugin",
+    image: <img src={PLANEMAIL} alt="PLANEMAIL" />,
+    desc: [
+      "Developed a plugin for the note-taking app, Obsidian, to plot graphs and vectors for better visualisation in your notes.",
+    ],
+    tags: "#REACT",
+    id: generateID(),
+    link: {
+      url: "https://github.com/nicoletanyt/obsidian-plugin-graphs",
+      text: "Check out the plugin!",
+    },
+    year: 2024,
+  },
 ];
 
 export const ACHIEVEMENTS = {
@@ -105,7 +119,7 @@ export const ACHIEVEMENTS = {
     ],
     2023: [
       {
-        title: "NOI 2023",
+        title: "NOI 2023 Qualifiers",
         r: "Gained more experience in C++ and learnt that we need to think outside of the box and identify patterns for an effective solution.",
       },
       {
@@ -132,6 +146,10 @@ export const ACHIEVEMENTS = {
         title: "Splash Awards 2023: Participation",
         r: "Enjoyed brainstorming solutions with my friends to solve real-world problems.",
       },
+      {
+        title: "NOI 2024 Finals: Bronze",
+        r: "Used C++ to solve coding questions",
+      }
     ],
   },
   Leadership: {
@@ -154,6 +172,9 @@ export const ACHIEVEMENTS = {
       },
     ],
   },
+  Academic: {
+    
+  }
 };
 
 export const IMAGES = {

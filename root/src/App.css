@@ -45,6 +45,7 @@ p {
 
 #name-wrapper {
   width: 50%;
+  text-align: center;
 }
 
 #name {
@@ -55,8 +56,14 @@ p {
 
 #name-img-wrapper {
   display: flex;
-  padding: 15vh;
-  /* padding-bottom: 0; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+
+#ascii-art {
+  font-size: 1.4em; 
 }
 
 #name-img {
@@ -80,10 +87,9 @@ p {
   justify-content: space-between;
 }
 .sidebar-icons {
-  font-size: 3vw;
+  font-size: 3em;
   padding: 1.5vw;
   color: #0f1b61;
-  height: fit-content;
 }
 .sidebar-icons:hover {
   cursor: pointer;
