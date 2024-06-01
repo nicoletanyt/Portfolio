@@ -123,7 +123,7 @@ p {
   margin: 0;
   width: 0.001vw;
   border: #0f1b61 solid;
-  height: 600vh;
+  height: 830vh;
   position: sticky;
   margin-left: 2.7vw;
 }
@@ -261,6 +261,7 @@ p {
 }
 .about-me-desc {
   text-align: justify !important;
+  width: 80%;
   padding-right: 5%;
 }
 .img-item-wrapper {
@@ -330,6 +331,7 @@ p {
 }
 .about-me img {
   width: 30%;
+  margin-right: 5%;
 }
 .events-img {
   position: relative;
@@ -371,4 +373,8 @@ p {
   text-align: center;
   color: #f4f9fc;
   border-radius: 8px;
+}
+
+.contact-btn {
+  display: inline-flex;
 }

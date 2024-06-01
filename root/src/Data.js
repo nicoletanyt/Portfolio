@@ -6,6 +6,10 @@ import PIC from "./images/PFP.JPG";
 import SASMO from "./images/SASMO.png";
 import FLLBOT from "./images/FLLBOT.png";
 import ATTACHMENT from "./images/ATTACHMENT.png";
+import PLUGIN from "./images/OBSIDIAN-PLUGIN.png"
+import ATTACHMENT1 from "./images/ATTACHMENT1.png"
+import COURSEWORK from "./images/COURSEWORK.png"
+import SSTEA from "./images/SSTEA1.png"
 
 function generateID() {
   return Math.floor(Math.random() * 100);
@@ -15,7 +19,7 @@ export const PROJECTS = [
     title: "SUSCITY",
     image: <img src={SUSCITY} alt="SUSCITY" />,
     desc: [
-      "An Educational Geography Game developed by me and a few friends from school to help students visualise geography concepts. I gained collaboration skills and learned how to use GitHub in the context of coding with others. ",
+      "SUSCITY is an educational game developed by me and a few friends from school to help students visualise geography concepts. I gained collaboration skills and learned how to use GitHub in the context of coding with others. ",
     ],
     tags: "#JS",
     id: generateID(),
@@ -40,8 +44,36 @@ export const PROJECTS = [
     year: 2022,
   },
   {
+    title: "Sound Seat Ticketing",
+    image: <img src={COURSEWORK} alt="Computing Coursework" />,
+    desc: [
+      "Sound Seat Ticketing is a voice-controlled automated movie ticket booking bot, designed with the visually and motor impaired in mind as well as those seeking greater convenience when booking their tickets. The program targets the popular movie booking site, Cathay Cineplexes, and will use automation libraries in Python to book the tickets automatically.",
+    ],
+    tags: "#PYTHON",
+    id: generateID(),
+    link: {
+      url: "https://github.com/lukeskywalker22/sound_seat_ticketing/tree/main",
+      text: "View the project on Github",
+    },
+    year: 2023,
+  },
+  {
+    title: "SSTea",
+    image: <img src={SSTEA} alt="Obsidian Plugin" />,
+    desc: [
+      "Developed an online tower defence game for FLL 2024 (read more later) to promote the hobby of gardening. Only available on mobile browsers (Google/Brave is recommended).",
+    ],
+    tags: "#JS",
+    id: generateID(),
+    link: {
+      url: "https://nicoletanyt.github.io/SSTea/",
+      text: "Check out the game!",
+    },
+    year: 2024,
+  },
+  {
     title: "Graphs in Obsidian Plugin",
-    image: <img src={PLANEMAIL} alt="PLANEMAIL" />,
+    image: <img src={PLUGIN} alt="Obsidian Plugin" />,
     desc: [
       "Developed a plugin for the note-taking app, Obsidian, to plot graphs and vectors for better visualisation in your notes.",
     ],
@@ -67,10 +99,17 @@ export const ACHIEVEMENTS = {
       {
         title: "INTOC Physics & Engineering Competition: Bronze",
         link: "https://sites.google.com/s2021.ssts.edu.sg/issgroupa202/home",
-        r: "Helped me cultivate several skills such as my communication, collaboration & time management.",
+        r: "Helped me cultivate my presentation skills",
         linkText: "View my project",
       },
     ],
+    2023: [
+      {
+        title: "Singapore Science and Engineering Fair (SSEF) 2023",
+        link: "https://sites.google.com/s2021.ssts.edu.sg/issgroupa202/home",
+        linkText: "View my project",
+      }
+    ]
   },
   "Math Competitions": {
     2023: [
@@ -83,6 +122,12 @@ export const ACHIEVEMENTS = {
         r: "Developed critical thinking and problem solving skills.",
       },
     ],
+    2024: [
+      {
+        title: "SASMO 2024",
+        r: "Gained more experience of complex Math problems that require you to think out of the box without a calculator."
+      }
+    ]
   },
   "Robotics Competitions": {
     2021: [
@@ -99,7 +144,7 @@ export const ACHIEVEMENTS = {
         linkText: "Learn More",
       },
       {
-        title: "First Lego League (FLL) 2021",
+        title: "First Lego League (FLL) 2021 (Cargo Connect)",
         r: "Learnt the importance of time management and learnt how to build attachments",
         link: "https://www.firstlegoleague.org",
         linkText: "Learn More",
@@ -107,15 +152,35 @@ export const ACHIEVEMENTS = {
     ],
     2022: [
       {
-        title: "FLL 2022",
+        title: "FLL 2022 - 2023 (Super Powered)",
         r: "Learnt how to build more efficient attachments to complete missions",
+      },
+    ],
+    2023: [
+      {
+        title: "World Robot Olympiad Singapore 2023 (RoboSports)",
+        r: "Built and coded autonomous robots to shoot balls to the other side of the play field (aka real life tennis)."
+      },
+      {
+        title: "FLL 2023 - 2024 (Masterpiece)",
+        r: "Learnt how to use python to code the robot and developed a game (SSTea) for innovation project.",
       },
     ],
   },
   "Coding Events": {
     2022: [
-      { title: "CAT 2022: Top 39%", r: "" },
-      { title: "OUCC 2022", r: "" },
+      { 
+        title: "CAT (Computational & Algorithmic Thinking) 2022: Top 39%", 
+        r: "" 
+      },
+      { 
+        title: "OUCC (Oxford University Computing Challenge) 2022",
+        r: "" 
+      },
+      {
+        title: "BEBRAS Computational Thinking Challenge: Honorable Mention",
+        r: ""
+      }
     ],
     2023: [
       {
@@ -147,10 +212,26 @@ export const ACHIEVEMENTS = {
         r: "Enjoyed brainstorming solutions with my friends to solve real-world problems.",
       },
       {
+        title: "Merit in Perse Coding (Team Challenge) 2023 Round 1",
+        r: "Gained experience in team coding events."
+      },
+    ],
+    2024: [
+      {
+        title: "Distinction in Perse Coding (Team Challenge) 2024 Round 1 & 2",
+        r: "Gained experience on how to work with others to solve problems under time constraints."
+      },
+      {
         title: "NOI 2024 Finals: Bronze",
         r: "Used C++ to solve coding questions",
-      }
-    ],
+      },
+      {
+        title: "Represented Singapore at iDEX 2024 organised by ACSI",
+        r: "Got to interact with people from different countries and learnt more about their projects.",
+        link: "https://idex.acsindep.edu.sg",
+        linkText: "Learn more",
+      },
+    ]
   },
   Leadership: {
     2019: [
@@ -173,7 +254,54 @@ export const ACHIEVEMENTS = {
     ],
   },
   Academic: {
-    
+    2023: [
+      {
+        title: "2023 Edusave Scholarship (Independent Schools) Yearly Award (Secondary 3)"
+      }
+    ],
+    2022: [
+      {
+        title: "2022 Edusave Scholarship (Independent Schools) Yearly Award (Secondary 2)"
+      }
+    ],
+    2021: [
+      {
+        title: "2021 Edusave Scholarship (Independent Schools) Yearly Award (Secondary 1)"
+      }
+    ],
+    2020: [
+      {
+        title: "Edusave Scholarship 2020 (Primary 6)",
+      }
+    ],
+    2019: [
+      {
+        title: "Edusave Scholarship 2019 (Primary 5)",
+      }, 
+      {
+        title: "EAGLES 2019",
+      }
+    ],
+    2018: [
+      {
+        title: "Edusave Scholarship 2018 (Primary 4)",
+      }
+    ],
+    2017: [
+      {
+        title: "Edusave Scholarship 2017 (Primary 3)",
+      }
+    ],
+    2016: [
+      {
+        title: "Edusave Scholarship 2016 (Primary 2)",
+      }
+    ],
+    2015: [
+      {
+        title: "Edusave Scholarship 2015 (Primary 1)",
+      }
+    ],
   }
 };
 
@@ -199,15 +327,15 @@ export const IMAGES = {
       src: ATTACHMENT,
       desc: "An attachment I built for FLL 2022",
     },
+    {
+      src: ATTACHMENT1,
+      desc: "An multi-functional attachment that can do 3 missions at once."
+    }
   ],
 };
 
-export const ABOUTME = [
-  {
-    text: [
-      "I'm Nicole Tan YiTong, a 15 year-old student currently studying in School of Science and Technology (SST). I'm interested in coding (specifically app and game development), listening to music, and math :D",
-    ],
+export const ABOUTME = {
+    text: "I'm Nicole Tan YiTong, a 16 year-old student currently studying in School of Science and Technology (SST) with an interest in coding, music, math, and gaming. I hope to continue learning more things and create more stuff that can benefit the community!",
     image: <img alt="Profile Pic" src={PIC} />,
-    year: "2023",
-  },
-];
+    year: "2008",
+}
