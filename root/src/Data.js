@@ -47,7 +47,7 @@ export const PROJECTS = [
     title: "Sound Seat Ticketing",
     image: <img src={COURSEWORK} alt="Computing Coursework" />,
     desc: [
-      "Sound Seat Ticketing is a voice-controlled automated movie ticket booking bot, designed with the visually and motor impaired in mind as well as those seeking greater convenience when booking their tickets. The program targets the popular movie booking site, Cathay Cineplexes, and will use automation libraries in Python to book the tickets automatically.",
+      "Sound Seat Ticketing is a voice-controlled automated movie ticket booking bot developed by me and my friends. It was designed with the visually and motor impaired in mind as well as those seeking greater convenience when booking their tickets. It targets the popular movie booking site, Cathay Cineplexes, and uses automation libraries in Python to book the tickets automatically.",
     ],
     tags: "#PYTHON",
     id: generateID(),
@@ -61,7 +61,7 @@ export const PROJECTS = [
     title: "SSTea",
     image: <img src={SSTEA} alt="Obsidian Plugin" />,
     desc: [
-      "Developed an online tower defence game for FLL 2024 (read more later) to promote the hobby of gardening. Only available on mobile browsers (Google/Brave is recommended).",
+      "SSTea is an online tower defence game I developed for FLL 2024 to promote the hobby of gardening. It allowed me apply the concepts I had learnt in game development, such as trigonometry for the rotation of the towers. The game is only available on mobile browsers (Google/Brave is recommended)",
     ],
     tags: "#JS",
     id: generateID(),
@@ -75,7 +75,7 @@ export const PROJECTS = [
     title: "Graphs in Obsidian Plugin",
     image: <img src={PLUGIN} alt="Obsidian Plugin" />,
     desc: [
-      "Developed a plugin for the note-taking app, Obsidian, to plot graphs and vectors for better visualisation in your notes.",
+      "I developed a plugin for the note-taking app, Obsidian, to plot graphs and vectors for better visualisation in your notes.",
     ],
     tags: "#REACT",
     id: generateID(),
@@ -228,8 +228,8 @@ export const ACHIEVEMENTS = {
       {
         title: "Represented Singapore at iDEX 2024 organised by ACSI",
         r: "Got to interact with people from different countries and learnt more about their projects.",
-        link: "https://idex.acsindep.edu.sg",
-        linkText: "Learn more",
+        link: "https://github.com/lukeskywalker22/sound_seat_ticketing/tree/main",
+        linkText: "View my project",
       },
     ]
   },

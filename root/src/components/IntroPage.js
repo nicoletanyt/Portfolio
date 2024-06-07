@@ -102,7 +102,6 @@ export default function IntroPage() {
   }, [])
 
   useEffect(() => {
-    console.log(frameIndex)
     document.getElementById("ascii-art").innerHTML = frames[frameIndex % frames.length]
   }, [frameIndex])
 
