@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5a707b90.css",
+    "main.js": "/Portfolio/static/js/main.8ddff9fe.js",
+    "static/media/ATTACHMENT1.png": "/Portfolio/static/media/ATTACHMENT1.96410a582fc1c6f25d24.png",
+    "static/media/FLLBOT.png": "/Portfolio/static/media/FLLBOT.afb5261565446f270c99.png",
+    "static/media/ATTACHMENT.png": "/Portfolio/static/media/ATTACHMENT.044e9539dd355beeb3db.png",
+    "static/media/COURSEWORK.png": "/Portfolio/static/media/COURSEWORK.0ddbbe0ef5209dfb7594.png",
+    "static/media/SSTEA1.png": "/Portfolio/static/media/SSTEA1.f00488da82187cfe70b4.png",
+    "static/media/PLANEMAIL.png": "/Portfolio/static/media/PLANEMAIL.d69dab9647697001e35b.png",
+    "static/media/PFP.JPG": "/Portfolio/static/media/PFP.e22bb749ae834a030f46.JPG",
+    "static/media/SUSCITY.png": "/Portfolio/static/media/SUSCITY.14def5bb8f68a8b1451b.png",
+    "static/media/OBSIDIAN-PLUGIN.png": "/Portfolio/static/media/OBSIDIAN-PLUGIN.d02a3d6882f49ffe9407.png",
+    "static/media/ISS1.png": "/Portfolio/static/media/ISS1.569bbf12a6c6f3020a08.png",
+    "static/media/SASMO.png": "/Portfolio/static/media/SASMO.1e96df28a46f2c823ed7.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5a707b90.css.map": "/Portfolio/static/css/main.5a707b90.css.map",
+    "main.8ddff9fe.js.map": "/Portfolio/static/js/main.8ddff9fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a707b90.css",
+    "static/js/main.8ddff9fe.js"
+  ]
+}
