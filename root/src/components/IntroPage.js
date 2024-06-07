@@ -117,10 +117,10 @@ export default function IntroPage() {
           <p>A curious and adaptable learner</p>
         </div>
       </div>
-      <div id="scroll-wrapper">
+      {/* <div id="scroll-wrapper">
         <p className="scroll-text">SCROLL</p>
         <hr className="vertical-line" />
-      </div>
+      </div> */}
     </div>
   );
 }

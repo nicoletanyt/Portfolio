@@ -106,6 +106,9 @@ p {
   display: flex;
   padding-left: 80vw;
   flex-direction: column;
+  /* height: 100vh; */
+  position: absolute;
+  top: 82vh;
 }
 
 .scroll-text {
@@ -123,9 +126,10 @@ p {
   margin: 0;
   width: 0.001vw;
   border: #0f1b61 solid;
-  height: 830vh;
+  height: 1000vh;
   position: sticky;
   margin-left: 2.7vw;
+  display: block;
 }
 
 #page-wrapper {
@@ -136,7 +140,7 @@ p {
 .timeline-header-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 .year-wrapper {
@@ -164,15 +168,17 @@ p {
   width: 2vw;
   background-color: #0f1b61;
   border-radius: 50%;
-  position: absolute;
-  right: 16.2vw;
+  position: relative;
+  /* right: 16.2vw; */
+  right: 1.1vw;
 }
 .project-container {
   width: 90%;
   display: flex;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  padding-right: 5vw;
+  padding-right: 3vw;
+  align-items: center;
 }
 .proj-text-wrapper {
   width: 55%;
@@ -187,8 +193,8 @@ p {
 }
 .project-container img {
   width: 30%;
-  height: auto;
-  /* background: #f7e3cc; */
+  height: 30%;
+  object-fit: scale-down;
   border-radius: 4%;
   border: #0f1b61 2px dotted;
   display: inline-flex;
