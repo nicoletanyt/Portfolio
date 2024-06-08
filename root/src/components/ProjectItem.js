@@ -15,7 +15,7 @@ export default function CardItem({
         {image}
         <div className="proj-text-wrapper">
           <div className="title-tag-wrapper">
-            <h4>{title}</h4>
+            <h2>{title}</h2>
             <p>{tags}</p>
           </div>
           <p>{desc}</p>

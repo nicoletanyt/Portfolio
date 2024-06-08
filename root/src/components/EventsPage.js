@@ -9,17 +9,27 @@ export default function EventsPage() {
       <br id="event-page-title" />
       <h2>Achievements</h2>
 
-      {Object.keys(ACHIEVEMENTS).map((category) => (
-        <div className="event-wrapper">
-          <div className="timeline-header-container category-label">
-            <div className="year-wrapper">
-              <h4 className="year-text">{category}</h4>
-              <hr className="year-line" />
+      {Object.keys(ACHIEVEMENTS).map((category, index) => (
+        <div key={index}>
+          <div className="timeline-header-container category-wrapper">
+            <h4>{category}</h4>
+            <div
+              className={IMAGES[category].imgSrc ? "category-img-wrapper" : "category-img-wrapper full-text"}
+            >
+              {IMAGES[category].imgSrc ? (
+                <img
+                  className="category-img"
+                  src={IMAGES[category].imgSrc}
+                ></img>
+              ) : (
+                <></>
+              )}
+              <p className="r">{IMAGES[category].r}</p>
             </div>
+            <br />
           </div>
           {Object.keys(ACHIEVEMENTS[category]).map((years) =>
             ACHIEVEMENTS[category][years].map((event) => (
-              // category === "Science Competitions" ? (
               <EventItem
                 title={event.title}
                 year={years}
@@ -30,7 +40,6 @@ export default function EventsPage() {
               />
             ))
           )}
-          <br />
           <br />
           <br />
         </div>

@@ -16,7 +16,8 @@ function App() {
   useEffect(() => {
     const containers = document.querySelectorAll(".project-container")
     const textWrappers = document.querySelectorAll(".proj-text-wrapper")
-    const dot = document.querySelectorAll(".year-dot")
+    const categoryWrapper = document.querySelectorAll(".category-img-wrapper")
+
     if (screenWidth < 780) {
       // show nav menu & remove flex on proj containers
       setMenuOpen(true);
@@ -37,11 +38,28 @@ function App() {
         textWrappers[i].style.width = "50%"
         containers[i].getElementsByTagName("img")[0].style.width = "30%"
       }
-      
-      // adjust dot absolute position
-      for (let i = 0; i < dot.length; ++i) {
-        // 17.5 is predefined
-        dot[i].style.right = 17.5 + (screenWidth - 780) * 0.0017 + "vw" 
+    }
+
+    if (screenWidth < 800) {
+      // move the reflections down 
+      for (let i = 0; i < categoryWrapper.length; ++i) {
+        categoryWrapper[i].style.gridTemplateColumns = "none"
+        if (categoryWrapper[i].querySelector(".category-img")) {
+          categoryWrapper[i].querySelector(".category-img").style.height = "100%"
+          categoryWrapper[i].style.gridTemplateRows = "40% 50%"
+        } else {
+          categoryWrapper[i].style.gridTemplateRows = "100%"
+        }
+      }
+    } else {
+      for (let i = 0; i < categoryWrapper.length; ++i) {
+        categoryWrapper[i].style.gridTemplateRows = "none"
+        if (categoryWrapper[i].querySelector(".category-img")) {
+          categoryWrapper[i].querySelector(".category-img").style.height = ""
+          categoryWrapper[i].style.gridTemplateColumns = "40% 50%"
+        } else {
+          categoryWrapper[i].style.gridTemplateColumns = "100%"
+        }
       }
     }
 

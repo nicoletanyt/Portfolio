@@ -5,9 +5,7 @@ import ISS1 from "./images/ISS1.png";
 import PIC from "./images/PFP.JPG";
 import SASMO from "./images/SASMO.png";
 import FLLBOT from "./images/FLLBOT.png";
-import ATTACHMENT from "./images/ATTACHMENT.png";
 import PLUGIN from "./images/OBSIDIAN-PLUGIN.png"
-import ATTACHMENT1 from "./images/ATTACHMENT1.png"
 import COURSEWORK from "./images/COURSEWORK.png"
 import SSTEA from "./images/SSTEA1.png"
 
@@ -306,32 +304,33 @@ export const ACHIEVEMENTS = {
 };
 
 export const IMAGES = {
-  "Science Competitions": [
+  "Science Competitions": 
     {
-      src: ISS1,
-      desc: "Sketches of the experiment conducted for these competitions.",
+      imgSrc: ISS1,
+      r: "Using a project (view the project below) that was done by me and my friend in 2022, we participated in multiple science competitions, which helped to hone my presentation skills. This project also helped to cultivate my communication, collaboration & time management skills as we had strict deadlines to follow, and helped me gain a deeper understanding of how research papers are written."
     },
-  ],
-  "Math Competitions": [
+  "Math Competitions": 
     {
-      src: SASMO,
-      desc: "Credit: sasmo.org",
+      imgSrc: SASMO,
+      r: "By attending these Math Competitions, I gained more experience on the application of concepts taught in school and how we can use them to think outside of the box. It has also honed my critical thinking skills and how to identify patterns to simplify complex problems."
     },
-  ],
-  "Robotics Competitions": [
+  "Robotics Competitions": 
     {
-      src: FLLBOT,
-      desc: "My robot for FLL 2022",
+      imgSrc: FLLBOT,
+      r: "Robotics Competitions allowed me to gain a deeper understanding of how hardware and software comes together to form a functional product and encouraged me to come up with innovative and efficient solutions to problems."
     },
-    {
-      src: ATTACHMENT,
-      desc: "An attachment I built for FLL 2022",
-    },
-    {
-      src: ATTACHMENT1,
-      desc: "An multi-functional attachment that can do 3 missions at once."
-    }
-  ],
+  "Coding Events": {
+    imgSrc: "",
+    r: "In these coding competitions, I mainly used Python and C++. The experience allowed me to improve my problem-solving skills by exposing me to different types of problems and concepts. Moreover, by attending events like Dev Week in SF, it  broadened my networks and provided valuable insights into how industry projects differ from school projects."
+  },
+  "Leadership": {
+    imgSrc: "",
+    r: "As a member of these leadership boards, it enhanced my planning, communication and leadership skills as I had to plan and help out in various school events over the years, such as leadership investiture. Being the aCTO of SST Inc. also improved my presentation skills as I had to teach people Swift."
+  }, 
+  "Academic": {
+    imgSrc:"",
+    r: "Over the years, I have earned multiple Edusave scholarships, which have motivated me to stay consistent in my schoolwork."
+  }
 };
 
 export const ABOUTME = {
@@ -339,3 +338,4 @@ export const ABOUTME = {
     image: <img alt="Profile Pic" src={PIC} />,
     year: "2008",
 }
+
