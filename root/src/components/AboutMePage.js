@@ -10,6 +10,7 @@ export default function AboutMePage() {
 
       <div className="timeline-header-container">
         <div className="project-container about-me">
+        {ABOUTME.image}
           <div>
             <p className="about-me-desc">{ABOUTME.text}</p>
             <br/>
@@ -17,7 +18,6 @@ export default function AboutMePage() {
               <p>Contact me</p>
             </a>
           </div>
-          {ABOUTME.image}
         </div>
         <span className="year-dot"></span>
         <p className="year-text-event">{ABOUTME.year}</p>
