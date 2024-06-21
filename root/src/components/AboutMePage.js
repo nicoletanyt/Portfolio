@@ -3,7 +3,7 @@ import { ABOUTME } from "../Data";
 
 export default function AboutMePage() {
   return (
-    <div id="page-wrapper">
+    <div>
       <div id="about-page-title" className="timeline-header-container">
         <h2>About Me</h2>
       </div>
