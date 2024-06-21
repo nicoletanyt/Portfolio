@@ -22,7 +22,7 @@ function App() {
       // show nav menu & remove flex on proj containers
       setMenuOpen(true);
       for (let i = 0; i < containers.length; ++i) {
-        containers[i].style.display = "block" 
+        containers[i].style.display = "block"
       }
       for (let i = 0; i < textWrappers.length; ++i) {
         textWrappers[i].style.width = "85%"
@@ -89,13 +89,15 @@ function App() {
   return (
     <div>
       <NavBar />
-      <IntroPage />
-      <AboutMePage />
-      <ProjectsPage />
-      <EventsPage />
-      <div id="scroll-wrapper">
-        <p className="scroll-text">SCROLL</p>
-        <hr className="vertical-line" />
+      <div id="main-page-wrapper">
+        <IntroPage />
+        <AboutMePage />
+        <ProjectsPage />
+        <EventsPage />
+        <div id="scroll-wrapper">
+          <p className="scroll-text">SCROLL</p>
+          <hr className="vertical-line" />
+        </div>
       </div>
     </div>
   );

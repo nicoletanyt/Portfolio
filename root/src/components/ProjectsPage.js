@@ -4,7 +4,7 @@ import { PROJECTS } from "../Data";
 
 export default function ProjectsPage() {
   return (
-    <div id="page-wrapper">
+    <div>
       <div id="proj-page-title" className="timeline-header-container">
         <h2>My Projects</h2>
       </div>

@@ -134,16 +134,18 @@ a {
 
 #scroll-wrapper {
   display: flex;
-  padding-left: 70vw;
+  margin-left: calc(0.86 * 84vw - 46.8px);
   flex-direction: column;
-  /* height: 100vh; */
+  align-items: center;
+  top: 85vh;
+  height: calc(100% - 85vh + 30px);
   position: absolute;
-  top: 90vh;
   z-index: -1;
 }
 
 .scroll-text {
   letter-spacing: 0.2em;
+  font-size: 18px;
   position: relative;
   animation: text-blink 1.3s linear infinite;
 }
@@ -156,15 +158,15 @@ a {
   margin: 0;
   width: 0.001vw;
   border: #0f1b61 solid;
-  height: 1290vh;
-  position: sticky;
-  display: block;
-  margin-left: 10vw;
+  flex: 1;
 }
 
-#page-wrapper {
-  padding: 8vw;
+#main-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 84vw;
+  padding: 8vw;
   padding-top: 0;
   padding-bottom: 0;
 }

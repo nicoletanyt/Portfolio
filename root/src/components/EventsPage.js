@@ -5,7 +5,7 @@ import { IMAGES } from "../Data";
 
 export default function EventsPage() {
   return (
-    <div id="page-wrapper">
+    <div>
       <br id="event-page-title" />
       <h2>Achievements</h2>
 
