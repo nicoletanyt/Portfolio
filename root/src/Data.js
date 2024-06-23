@@ -169,15 +169,20 @@ export const ACHIEVEMENTS = {
     2022: [
       { 
         title: "CAT (Computational & Algorithmic Thinking) 2022: Top 39%", 
-        r: "" 
       },
       { 
         title: "OUCC (Oxford University Computing Challenge) 2022",
-        r: "" 
       },
       {
         title: "BEBRAS Computational Thinking Challenge: Honorable Mention",
-        r: ""
+      },
+      {
+        title: "SST Inc. Application of the Year 1st Runner-up (SUSCITY)",
+        link: "https://sus-city.github.io",
+        linkText: "View my project",
+      },
+      {
+        title: "SST Innofest Award Honorable Mention"
       }
     ],
     2023: [
@@ -213,6 +218,11 @@ export const ACHIEVEMENTS = {
         title: "Merit in Perse Coding (Team Challenge) 2023 Round 1",
         r: "Gained experience in team coding events."
       },
+      {
+        title: "SST Inc. Application of the Year 2nd Runner-up (SUSCITY)",
+        link: "https://sus-city.github.io",
+        linkText: "View my project",
+      }
     ],
     2024: [
       {
