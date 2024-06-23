@@ -94,7 +94,8 @@ a {
   display: flex;
 }
 #socials-wrapper {
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 .sidebar-icons {
   font-size: 2em;
