@@ -93,10 +93,10 @@ a {
 #desktop-nav-container div {
   display: flex;
 }
-#socials-wrapper {
-  display: flex;
-  align-items: center;
-}
+/* #socials-wrapper { */
+  /* display: flex;
+  align-items: center; */
+/* } */
 .sidebar-icons {
   font-size: 2em;
   padding: 1.5vw;
