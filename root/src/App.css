@@ -262,7 +262,7 @@ a {
 }
 .category-img {
   object-fit: scale-down;
-  width: 90%;
+  width: 70%;
   /* height: 100%; */
 }
 .category-img-wrapper {

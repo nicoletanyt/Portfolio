@@ -3,7 +3,7 @@ import SUSCITY from "./images/SUSCITY.png";
 import PLANEMAIL from "./images/PLANEMAIL.png";
 import ISS1 from "./images/ISS1.png";
 import PIC from "./images/PFP.JPG";
-import SASMO from "./images/SASMO.png";
+import SASMO from "./images/SASMO.jpg";
 import FLLBOT from "./images/FLLBOT.png";
 import PLUGIN from "./images/OBSIDIAN-PLUGIN.png"
 import COURSEWORK from "./images/COURSEWORK.png"
